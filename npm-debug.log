@@ -1,0 +1,232 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose readDependencies loading dependencies from /Users/chronosafe/Documents/Development/Work/test/test_app/package.json
+5 warn package.json rhoconnect@1.0.0 No description
+6 warn package.json rhoconnect@1.0.0 No repository field.
+7 warn package.json rhoconnect@1.0.0 No README data
+8 warn package.json rhoconnect@1.0.0 No license field.
+9 verbose install where, deps [ '/Users/chronosafe/Documents/Development/Work/test/test_app',
+9 verbose install   [ 'redis' ] ]
+10 verbose install where, peers [ '/Users/chronosafe/Documents/Development/Work/test/test_app',
+10 verbose install   [] ]
+11 verbose installManyTop reading for lifecycle /Users/chronosafe/Documents/Development/Work/test/test_app/package.json
+12 info preinstall rhoconnect@1.0.0
+13 verbose readDependencies loading dependencies from /Users/chronosafe/Documents/Development/Work/test/test_app/package.json
+14 silly cache add args [ 'redis@*', null ]
+15 verbose cache add spec redis@*
+16 silly cache add parsed spec { raw: 'redis@*',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'redis',
+16 silly cache add   rawSpec: '*',
+16 silly cache add   spec: '*',
+16 silly cache add   type: 'range' }
+17 silly addNamed redis@*
+18 verbose addNamed "*" is a valid semver range for redis
+19 silly addNameRange { name: 'redis', range: '*', hasData: false }
+20 silly mapToRegistry name redis
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/redis
+24 verbose addNameRange registry:https://registry.npmjs.org/redis not in flight; fetching
+25 verbose request uri https://registry.npmjs.org/redis
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 10:03:54 AM
+28 verbose request id 895a4527572ad599
+29 http request GET https://registry.npmjs.org/redis
+30 http 200 https://registry.npmjs.org/redis
+31 silly get cb [ 200,
+31 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly get     etag: '"99O0YG8O6J79S555R4Y1PFMQO"',
+31 silly get     'content-type': 'application/json',
+31 silly get     'cache-control': 'max-age=60',
+31 silly get     'content-length': '109785',
+31 silly get     'accept-ranges': 'bytes',
+31 silly get     date: 'Fri, 23 Oct 2015 15:03:54 GMT',
+31 silly get     via: '1.1 varnish',
+31 silly get     age: '38',
+31 silly get     connection: 'keep-alive',
+31 silly get     'x-served-by': 'cache-dfw1834-DFW',
+31 silly get     'x-cache': 'HIT',
+31 silly get     'x-cache-hits': '3',
+31 silly get     'x-timer': 'S1445612634.689620,VS0,VE0',
+31 silly get     vary: 'Accept' } ]
+32 verbose get saving redis to /Users/chronosafe/.npm/registry.npmjs.org/redis/.cache.json
+33 silly addNameRange number 2 { name: 'redis', range: '*', hasData: true }
+34 silly addNameRange versions [ 'redis',
+34 silly addNameRange   [ '0.0.1',
+34 silly addNameRange     '0.0.2',
+34 silly addNameRange     '0.0.3',
+34 silly addNameRange     '0.0.4',
+34 silly addNameRange     '0.0.7',
+34 silly addNameRange     '0.0.8',
+34 silly addNameRange     '0.1.0',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.1.2',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.2.3',
+34 silly addNameRange     '0.2.4',
+34 silly addNameRange     '0.2.6',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.3.1',
+34 silly addNameRange     '0.3.2',
+34 silly addNameRange     '0.3.3',
+34 silly addNameRange     '0.3.4',
+34 silly addNameRange     '0.3.5',
+34 silly addNameRange     '0.3.6',
+34 silly addNameRange     '0.3.7',
+34 silly addNameRange     '0.3.9',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.4.2',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.5.1',
+34 silly addNameRange     '0.5.2',
+34 silly addNameRange     '0.5.3',
+34 silly addNameRange     '0.5.4',
+34 silly addNameRange     '0.5.5',
+34 silly addNameRange     '0.5.6',
+34 silly addNameRange     '0.5.7',
+34 silly addNameRange     '0.5.8',
+34 silly addNameRange     '0.5.9',
+34 silly addNameRange     '0.5.10',
+34 silly addNameRange     '0.5.11',
+34 silly addNameRange     '0.6.0',
+34 silly addNameRange     '0.6.1',
+34 silly addNameRange     '0.6.2',
+34 silly addNameRange     '0.6.3',
+34 silly addNameRange     '0.6.4',
+34 silly addNameRange     '0.6.5',
+34 silly addNameRange     '0.6.6',
+34 silly addNameRange     '0.6.7',
+34 silly addNameRange     '0.7.0',
+34 silly addNameRange     '0.7.1',
+34 silly addNameRange     '0.7.2',
+34 silly addNameRange     '0.7.3',
+34 silly addNameRange     '0.8.0',
+34 silly addNameRange     '0.8.1',
+34 silly addNameRange     '0.8.2',
+34 silly addNameRange     '0.8.3',
+34 silly addNameRange     '0.8.4',
+34 silly addNameRange     '0.8.5',
+34 silly addNameRange     '0.8.6',
+34 silly addNameRange     '0.9.0',
+34 silly addNameRange     '0.9.1',
+34 silly addNameRange     '0.9.2',
+34 silly addNameRange     '0.10.0',
+34 silly addNameRange     '0.10.1',
+34 silly addNameRange     '0.10.2',
+34 silly addNameRange     '0.10.3',
+34 silly addNameRange     '0.11.0',
+34 silly addNameRange     '0.12.0',
+34 silly addNameRange     '0.12.1',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '2.0.1',
+34 silly addNameRange     '2.1.0',
+34 silly addNameRange     '2.2.0',
+34 silly addNameRange     '2.2.1',
+34 silly addNameRange     '2.2.2',
+34 silly addNameRange     '2.2.3',
+34 silly addNameRange     '2.2.4',
+34 silly addNameRange     '2.2.5' ] ]
+35 silly addNamed redis@2.2.5
+36 verbose addNamed "2.2.5" is a plain semver version for redis
+37 silly mapToRegistry name redis
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/redis
+41 verbose addRemoteTarball https://registry.npmjs.org/redis/-/redis-2.2.5.tgz not in flight; adding
+42 verbose addRemoteTarball [ 'https://registry.npmjs.org/redis/-/redis-2.2.5.tgz',
+42 verbose addRemoteTarball   'f81d5700b32686609f29c0afb29d539ed853ad78' ]
+43 info retry fetch attempt 1 at 10:03:54 AM
+44 info attempt registry request try #1 at 10:03:54 AM
+45 http fetch GET https://registry.npmjs.org/redis/-/redis-2.2.5.tgz
+46 http fetch 200 https://registry.npmjs.org/redis/-/redis-2.2.5.tgz
+47 silly fetchAndShaCheck shasum f81d5700b32686609f29c0afb29d539ed853ad78
+48 verbose addTmpTarball /var/folders/bs/z4nty17j6vb3c1mx5xqrcfb80000gn/T/npm-967-99421f45/registry.npmjs.org/redis/-/redis-2.2.5.tgz not in flight; adding
+49 verbose addTmpTarball already have metadata; skipping unpack for redis@2.2.5
+50 silly cache afterAdd redis@2.2.5
+51 verbose afterAdd /Users/chronosafe/.npm/redis/2.2.5/package/package.json not in flight; writing
+52 verbose afterAdd /Users/chronosafe/.npm/redis/2.2.5/package/package.json written
+53 silly install resolved [ { name: 'redis',
+53 silly install resolved     version: '2.2.5',
+53 silly install resolved     description: 'Redis client library',
+53 silly install resolved     keywords: [ 'database', 'redis', 'transaction', 'pipelining' ],
+53 silly install resolved     author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+53 silly install resolved     license: 'MIT',
+53 silly install resolved     main: './index.js',
+53 silly install resolved     scripts:
+53 silly install resolved      { coveralls: 'nyc report --reporter=text-lcov | coveralls',
+53 silly install resolved        coverage: 'nyc report --reporter=html',
+53 silly install resolved        benchmark: 'node benchmarks/multi_bench.js',
+53 silly install resolved        test: 'nyc ./node_modules/.bin/_mocha ./test/*.js ./test/commands/*.js --timeout=8000',
+53 silly install resolved        pretest: 'optional-dev-dependency hiredis',
+53 silly install resolved        posttest: 'jshint .' },
+53 silly install resolved     dependencies: { 'double-ended-queue': '^2.1.0-0' },
+53 silly install resolved     engines: { node: '>=0.10.0' },
+53 silly install resolved     devDependencies:
+53 silly install resolved      { coveralls: '^2.11.2',
+53 silly install resolved        jshint: '^2.8.0',
+53 silly install resolved        metrics: '^0.1.9',
+53 silly install resolved        mocha: '^2.3.2',
+53 silly install resolved        nyc: '^3.2.2',
+53 silly install resolved        'optional-dev-dependency': '^1.1.0',
+53 silly install resolved        'tcp-port-used': '^0.1.2',
+53 silly install resolved        uuid: '^2.0.1',
+53 silly install resolved        'win-spawn': '^2.0.0',
+53 silly install resolved        bluebird: '^2.10.0' },
+53 silly install resolved     repository:
+53 silly install resolved      { type: 'git',
+53 silly install resolved        url: 'git://github.com/NodeRedis/node_redis.git' },
+53 silly install resolved     bugs: { url: 'https://github.com/NodeRedis/node_redis/issues' },
+53 silly install resolved     homepage: 'https://github.com/NodeRedis/node_redis',
+53 silly install resolved     directories: { example: 'examples', test: 'test' },
+53 silly install resolved     gitHead: '851dd8720684ed084e069f9d7659b9e736033fdc',
+53 silly install resolved     _id: 'redis@2.2.5',
+53 silly install resolved     _shasum: 'f81d5700b32686609f29c0afb29d539ed853ad78',
+53 silly install resolved     _from: 'redis@*',
+53 silly install resolved     _npmVersion: '2.14.7',
+53 silly install resolved     _nodeVersion: '4.2.1',
+53 silly install resolved     _npmUser: { name: 'bridgear', email: 'ruben@bridgewater.de' },
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: 'f81d5700b32686609f29c0afb29d539ed853ad78',
+53 silly install resolved        tarball: 'http://registry.npmjs.org/redis/-/redis-2.2.5.tgz' },
+53 silly install resolved     maintainers:
+53 silly install resolved      [ [Object],
+53 silly install resolved        [Object],
+53 silly install resolved        [Object],
+53 silly install resolved        [Object],
+53 silly install resolved        [Object],
+53 silly install resolved        [Object],
+53 silly install resolved        [Object] ],
+53 silly install resolved     _resolved: 'https://registry.npmjs.org/redis/-/redis-2.2.5.tgz' } ]
+54 info install redis@2.2.5 into /Users/chronosafe/Documents/Development/Work/test/test_app
+55 info installOne redis@2.2.5
+56 verbose installOne of redis to /Users/chronosafe/Documents/Development/Work/test/test_app not in flight; installing
+57 warn locking Error: EACCES, open '/Users/chronosafe/.npm/_locks/redis-9a56ecd4f38089aa.lock'
+57 warn locking     at Error (native)
+57 warn locking  /Users/chronosafe/.npm/_locks/redis-9a56ecd4f38089aa.lock failed { [Error: EACCES, open '/Users/chronosafe/.npm/_locks/redis-9a56ecd4f38089aa.lock']
+57 warn locking   errno: -13,
+57 warn locking   code: 'EACCES',
+57 warn locking   path: '/Users/chronosafe/.npm/_locks/redis-9a56ecd4f38089aa.lock' }
+58 verbose stack Error: Attempt to unlock /Users/chronosafe/Documents/Development/Work/test/test_app/node_modules/redis, which hasn't been locked
+58 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+58 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+58 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+58 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+58 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+58 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+58 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+59 verbose cwd /Users/chronosafe/Documents/Development/Work/test/test_app
+60 error Darwin 15.0.0
+61 error argv "node" "/usr/local/bin/npm" "install"
+62 error node v0.12.4
+63 error npm  v2.10.1
+64 error Attempt to unlock /Users/chronosafe/Documents/Development/Work/test/test_app/node_modules/redis, which hasn't been locked
+65 error If you need help, you may report this error at:
+65 error     <https://github.com/npm/npm/issues>
+66 verbose exit [ 1, true ]
